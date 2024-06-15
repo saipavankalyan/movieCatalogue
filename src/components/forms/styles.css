@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: white;
+}
+
+.search-input {
+  border: 1px solid #dadada;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: start;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1280px;
+  font-size: 0.8rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.form-input::placeholder {
+  color: #8f92a1;
+  width: 100%;
+}
+
+.search-option {
+  display: flex;
+  padding: 0rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-option-movie {
+  font-weight: 500;
+}
+
+.search-option-rating {
+  font-size: 0.75rem;
+  color: black;
+}
+
+.search-option-genre {
+  font-weight: 500;
+  color: #777777;
+}
+
+.rating-sm {
+  font-size: 0.6rem;
+}
+
+.rating-option {
+  display: flex;
+  padding: 0;
+}
+
+.rating-checkbox {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  top: 0.15rem;
+  margin-right: 0.25rem;
+  accent-color: black;
+}
+
+.rating-input {
+  border: 1px solid #dadada;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.any-rating-text {
+  margin: 0 0.1rem;
+  position: relative;
+  top: 0.15rem;
+  font-size: 1rem;
+}
+
+.genre-option {
+  display: flex;
+  padding: 0;
+}
+
+.genre-input {
+  border: 1px solid #dadada;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  width: 200px;
+}
+
+.genre-checkbox {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  top: 0.15rem;
+  margin-right: 0.25rem;
+  accent-color: black;
+}
+
+.genre-label {
+  margin: 0 0.1rem;
+  position: relative;
+  top: 0.2rem;
+  font-size: 1rem;
+}
