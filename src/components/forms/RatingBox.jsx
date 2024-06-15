@@ -31,7 +31,6 @@ export const RatingBox = ({ name }) => {
       closeMenuOnSelect={false}
       closeMenuOnScroll={false}
       creatable={false}
-      menuIsOpen={true}
       styles={{
         menu: (provided) => ({
           ...provided,
