@@ -22,6 +22,7 @@ export const SearchBox = ({ name }) => {
         if (action.action === 'input-change') setMovieTitleTyped(value);
       }}
       inputValue={moviesFilter.title}
+      placeholder="Enter movie name"
       className="search-input"
       options={movies}
       getOptionValue={({ title }) => title}
