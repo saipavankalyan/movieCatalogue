@@ -11,6 +11,6 @@ export const RatingOption = ({ innerProps, isSelected, value }) => (
       className="rating-checkbox"
     />
     {value > 0 && <StarRating rating={value} />}
-    {value === 0 && <p className="any-rating-text">Any Rating</p>}
+    {parseInt(value) === 0 && <p className="any-rating-text">Any Rating</p>}
   </div>
 );
